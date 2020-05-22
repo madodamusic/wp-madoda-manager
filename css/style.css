@@ -1,0 +1,36 @@
+#wp-madoda-manager-main .container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#wp-madoda-manager-main .title {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+#wp-madoda-manager-main header nav {
+  background-color: #00000086;
+  padding: 5px 0;
+}
+
+#wp-madoda-manager-main header nav ul li {
+  display: inline;
+}
+
+#wp-madoda-manager-main header nav a {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+#wp-madoda-manager-main textarea {
+  width: 100%;
+}
+
+#wp-madoda-manager-main .functons button {
+  padding: 10px;
+}
+
+#wp-madoda-manager-main #home-page {
+  height: 0;
+}
+/*# sourceMappingURL=style.css.map */
