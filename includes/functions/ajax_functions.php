@@ -95,7 +95,7 @@ function madoda_manager_upload_urls() {
     fclose($urls_file);
     update_option('madoda_manager_download_urls', []);
 
-    shell_exec("python3 wp_mddmanager.py -f $urls_file_path")
+    shell_exec("python3 wp_mddmanager.py -f $urls_file_path");
     echo "update in progress";
 }
 
