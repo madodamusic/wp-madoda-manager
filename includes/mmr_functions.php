@@ -64,7 +64,7 @@ function mddr_get_url_content($post_id) {
     $youtube_url = str_replace(" ","", get_post_meta( $post_id, "download_youtube_url" )[0]);
     $title =  str_replace(" ","", get_post_meta( $post_id, "title" )[0]);
     $artist =  str_replace(" ","", mddr_gete_artists());
-    $url_content = $youtube_url.' wp_id='.$post_id.' -t {"Artist":"'.$artist.'",Title:"'.$title.'"}';
+    $url_content = $youtube_url.' wp_id='.$post_id.' -t {"Artist":"'.$artist.'","Title":"'.$title.'"}';
 
     return $url_content;
 }
